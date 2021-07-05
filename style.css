@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+.top-section{
+    display: flex;
+    background-image: url(images/Frame57.jpg);
+    background-repeat: no-repeat;
+}
+.haf-width{
+    width: 50%;
+    margin: 5%;
+}
+.haf-width img{
+    width: 100%;
+}
+#title-color{
+    color: orangered;
+}
+.center-section{
+    display: flex;
+    background-image: url(images/Frame58.jpg);
+    background-repeat: no-repeat;
+}
+#recipies{
+    text-align: center;
+    padding: 20px 20%;
+}
+
