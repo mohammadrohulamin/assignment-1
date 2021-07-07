@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-p{
+.pfont{
     font-family: 'Merriweather', serif;
     font-size: 30px;
 }
@@ -29,6 +29,11 @@ h2{
 }
 .link-button{
     text-decoration: none;
+    color: white;
+    font-size: 2em;
+    background-color:red;
+    border-radius: 10px;
+    padding: 15px 20px;
 }
 .center-section{
     display: flex;
@@ -39,16 +44,54 @@ h2{
     text-align: center;
     padding: 20px 20%;
 }
-.haf-width2{
+.sectionbox{
     display: flex;
-    width: 50%;
-    margin: 5%;
+    padding:40px 20px;
 }
-.haf-width2 img{
-    width: 80%;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 40px gray ;
+.boxall{
+    width: 350px;
+    background: white;
+    padding: 15px auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px gray;
+}
+.boxall img{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 90%;
+    border-radius:10px;
+}
+.sboxtitle{
+    padding-left: 10px;
+}
+.sboxp{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+.boxall2{
+    width:1600px;
+    background: white;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px gray;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#footer-title{
+    color: orange;
+}
+#footer-title2{
+    color: slategrey;
+}
+footer p{
+    color: lightslategrey;
 }
